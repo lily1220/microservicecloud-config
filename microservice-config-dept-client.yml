@@ -9,7 +9,7 @@ service:
 spring:
     profiles: dev
     application:
-       name: microservicecloud-config-deptclient
+       name: microservice-config-dept-client
     datasource:
     type: com.alibaba.druid.pool.DruidDataSource   
     driver-class-name: org.gjt.mm.mysql.Driver  
@@ -45,9 +45,9 @@ info:
 service:
   port: 8001
 spring:
-    profiles: dev
+    profiles: test
     application:
-       name: microservicecloud-config-deptclient
+       name: microservice-config-dept-client
     datasource:
     type: com.alibaba.druid.pool.DruidDataSource   
     driver-class-name: org.gjt.mm.mysql.Driver  
